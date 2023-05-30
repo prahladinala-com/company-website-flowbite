@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./dist/output.css" />
+    <title>ToolMate | Home Page</title>
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <nav
+      class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600"
+    >
+      <div
+        class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+      >
+        <a href="https://prahladinala.in" class="flex items-center">
+          <img
+            src="https://toolmate.co.in/assets/logo/ToolmateLight.png"
+            class="h-8 mr-3"
+            alt="ToolMate Logo"
+          />
+          <span
+            class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
+            >ToolMate</span
+          >
+        </a>
+        <div class="flex md:order-2">
+          <a href="./contact.html">
+            <button
+              type="button"
+              class="text-white bg-toolm hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-toolm font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-toolm dark:hover:bg-blue-700 dark:focus:ring-toolm"
+            >
+              Get started
+            </button>
+          </a>
+          <button
+            data-collapse-toggle="navbar-sticky"
+            type="button"
+            class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            aria-controls="navbar-sticky"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Open main menu</span>
+            <svg
+              class="w-6 h-6"
+              aria-hidden="true"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </button>
+        </div>
+        <div
+          class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+          id="navbar-sticky"
+        >
+          <ul
+            class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+          >
+            <li>
+              <a
+                href="./index.html"
+                class="block py-2 pl-3 pr-4 text-white bg-toolm rounded md:bg-transparent md:text-toolm md:p-0 md:dark:text-toolm"
+                aria-current="page"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="./about.html"
+                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                href="./services.html"
+                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                >Services</a
+              >
+            </li>
+            <li>
+              <a
+                href="./contact.html"
+                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- SERVICES SECTION SECTION -->
+    <!-- component -->
+    <div
+      id="services"
+      class="section relative pt-12 pb-8 md:pt-16 md:pb-0 bg-white mt-24 mb-24"
+    >
+      <div class="container xl:max-w-6xl mx-auto px-4">
+        <!-- Heading start -->
+        <header class="text-center mx-auto mb-5 lg:px-20">
+          <div class="mx-auto max-w-xl text-center">
+            <h2
+              class="mt-6 text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl"
+            >
+              Our Services
+            </h2>
+            <p class="mt-4 text-base leading-relaxed text-gray-600">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+            </p>
+          </div>
+          <svg
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            viewBox="0 0 100 60"
+            style="margin: 0 auto; height: 35px"
+            xml:space="preserve"
+          >
+            <circle
+              cx="50.1"
+              cy="30.4"
+              r="5"
+              class="stroke-primary"
+              style="fill: transparent; stroke-width: 2; stroke-miterlimit: 10"
+            ></circle>
+            <line
+              x1="55.1"
+              y1="30.4"
+              x2="100"
+              y2="30.4"
+              class="stroke-primary"
+              style="stroke-width: 2; stroke-miterlimit: 10"
+            ></line>
+            <line
+              x1="45.1"
+              y1="30.4"
+              x2="0"
+              y2="30.4"
+              class="stroke-primary"
+              style="stroke-width: 2; stroke-miterlimit: 10"
+            ></line>
+          </svg>
+        </header>
+        <!-- End heading -->
+        <!-- row -->
+        <div class="flex flex-wrap flex-row -mx-4 text-center">
+          <div
+            class="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp"
+            data-wow-duration="1s"
+            style="
+              visibility: visible;
+              animation-duration: 1s;
+              animation-name: fadeInUp;
+            "
+          >
+            <!-- service block -->
+            <div
+              class="py-8 px-12 mb-12 bg-blue-100 rounded-lg border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2"
+            >
+              <div class="inline-block text-gray-900 mb-4">
+                <!-- icon -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="2rem"
+                  height="2rem"
+                  fill="currentColor"
+                  class="bi bi-search text-blue-600"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+                  ></path>
+                </svg>
+              </div>
+              <h3 class="text-xl leading-normal mb-2 font-bold text-black text-blue-600">
+                SEO Services
+              </h3>
+              <p class="text-blue-600">
+                This is a wider card with supporting text below as a natural
+                content.
+              </p>
+            </div>
+            <!-- end service block -->
+          </div>
+          <div
+            class="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp"
+            data-wow-duration="1s"
+            data-wow-delay=".1s"
+            style="
+              visibility: visible;
+              animation-duration: 1s;
+              animation-delay: 0.1s;
+              animation-name: fadeInUp;
+            "
+          >
+            <!-- service block -->
+            <div
+              class="py-8 px-12 mb-12 bg-orange-100 rounded-lg border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2"
+            >
+              <div class="inline-block text-orange-600 mb-4">
+                <!-- icon -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="2rem"
+                  height="2rem"
+                  fill="currentColor"
+                  class="bi bi-chat-square-dots"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2.5a2 2 0 0 0-1.6.8L8 14.333 6.1 11.8a2 2 0 0 0-1.6-.8H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"
+                  ></path>
+                  <path
+                    d="M5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"
+                  ></path>
+                </svg>
+              </div>
+              <h3 class="text-xl leading-normal mb-2 font-bold text-orange-600">
+                Social Content
+              </h3>
+              <p class="text-orange-600">
+                This is a wider card with supporting text below as a natural
+                content.
+              </p>
+            </div>
+            <!-- end service block -->
+          </div>
+          <div
+            class="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp"
+            data-wow-duration="1s"
+            data-wow-delay=".3s"
+            style="
+              visibility: visible;
+              animation-duration: 1s;
+              animation-delay: 0.3s;
+              animation-name: fadeInUp;
+            "
+          >
+            <!-- service block -->
+            <div
+              class="py-8 px-12 mb-12 bg-green-100 rounded-lg border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2"
+            >
+              <div class="inline-block text-green-600 mb-4">
+                <!-- icon -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="2rem"
+                  height="2rem"
+                  fill="currentColor"
+                  class="bi bi-badge-ad"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M3.7 11l.47-1.542h2.004L6.644 11h1.261L5.901 5.001H4.513L2.5 11h1.2zm1.503-4.852l.734 2.426H4.416l.734-2.426h.053zm4.759.128c-1.059 0-1.753.765-1.753 2.043v.695c0 1.279.685 2.043 1.74 2.043.677 0 1.222-.33 1.367-.804h.057V11h1.138V4.685h-1.16v2.36h-.053c-.18-.475-.68-.77-1.336-.77zm.387.923c.58 0 1.002.44 1.002 1.138v.602c0 .76-.396 1.2-.984 1.2-.598 0-.972-.449-.972-1.248v-.453c0-.795.37-1.24.954-1.24z"
+                  ></path>
+                  <path
+                    d="M14 3a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h12zM2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2z"
+                  ></path>
+                </svg>
+              </div>
+              <h3 class="text-xl leading-normal mb-2 font-bold text-green-600">
+                Creative ads
+              </h3>
+              <p class="text-green-600">
+                This is a wider card with supporting text below as a natural
+                content.
+              </p>
+            </div>
+            <!-- end service block -->
+          </div>
+          <div
+            class="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp"
+            data-wow-duration="1s"
+            style="
+              visibility: visible;
+              animation-duration: 1s;
+              animation-name: fadeInUp;
+            "
+          >
+            <!-- service block -->
+            <div
+              class="py-8 px-12 mb-12 bg-red-100 rounded-lg border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2"
+            >
+              <div class="inline-block text-red-600 mb-4">
+                <!-- icon -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="2rem"
+                  height="2rem"
+                  fill="currentColor"
+                  class="bi bi-card-checklist text-red-600"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"
+                  ></path>
+                  <path
+                    d="M7 5.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0zM7 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0z"
+                  ></path>
+                </svg>
+              </div>
+              <h3 class="text-xl leading-normal mb-2 font-bold text-red-600">
+                Brand Identity
+              </h3>
+              <p class="text-red-600">
+                This is a wider card with supporting text below as a natural
+                content.
+              </p>
+            </div>
+            <!-- end service block -->
+          </div>
+          <div
+            class="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp"
+            data-wow-duration="1s"
+            data-wow-delay=".1s"
+            style="
+              visibility: visible;
+              animation-duration: 1s;
+              animation-delay: 0.1s;
+              animation-name: fadeInUp;
+            "
+          >
+            <!-- service block -->
+            <div
+              class="py-8 px-12 mb-12 bg-gray-100 rounded-lg border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2"
+            >
+              <div class="inline-block text-gray-900 mb-4">
+                <!-- icon -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="2rem"
+                  height="2rem"
+                  fill="currentColor"
+                  class="bi bi-wallet2"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M12.136.326A1.5 1.5 0 0 1 14 1.78V3h.5A1.5 1.5 0 0 1 16 4.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 13.5v-9a1.5 1.5 0 0 1 1.432-1.499L12.136.326zM5.562 3H13V1.78a.5.5 0 0 0-.621-.484L5.562 3zM1.5 4a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"
+                  ></path>
+                </svg>
+              </div>
+              <h3 class="text-xl leading-normal mb-2 font-bold text-black">
+                Budget &amp; Marketing
+              </h3>
+              <p class="text-gray-500">
+                This is a wider card with supporting text below as a natural
+                content.
+              </p>
+            </div>
+            <!-- end service block -->
+          </div>
+          <div
+            class="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp"
+            data-wow-duration="1s"
+            data-wow-delay=".3s"
+            style="
+              visibility: visible;
+              animation-duration: 1s;
+              animation-delay: 0.3s;
+              animation-name: fadeInUp;
+            "
+          >
+            <!-- service block -->
+            <div
+              class="py-8 px-12 mb-12 bg-pink-100 rounded-lg border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2"
+            >
+              <div class="inline-block text-pink-600 mb-4">
+                <!-- icon -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="2rem"
+                  height="2rem"
+                  fill="currentColor"
+                  class="bi bi-funnel text-pink-600"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M1.5 1.5A.5.5 0 0 1 2 1h12a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.128.334L10 8.692V13.5a.5.5 0 0 1-.342.474l-3 1A.5.5 0 0 1 6 14.5V8.692L1.628 3.834A.5.5 0 0 1 1.5 3.5v-2zm1 .5v1.308l4.372 4.858A.5.5 0 0 1 7 8.5v5.306l2-.666V8.5a.5.5 0 0 1 .128-.334L13.5 3.308V2h-11z"
+                  ></path>
+                </svg>
+              </div>
+              <h3 class="text-xl leading-normal mb-2 font-bold text-pink-600">
+                Optimize conversions
+              </h3>
+              <p class="text-pink-600">
+                This is a wider card with supporting text below as a natural
+                content.
+              </p>
+            </div>
+            <!-- end service block -->
+          </div>
+        </div>
+        <!-- end row -->
+      </div>
+    </div>
+
+    <!-- FOOTER SECTION -->
+    <footer
+      class="fixed bottom-0 left-0 z-20 w-full p-4 bg-white border-t border-gray-200 shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800 dark:border-gray-600"
+    >
+      <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400"
+        >© 2023
+        <a href="https://toolmate.co.in" class="hover:underline">ToolMate™</a>.
+        All Rights Reserved.
+      </span>
+      <ul
+        class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0"
+      >
+        <li>
+          <a href="./about.html" class="mr-6 hover:underline md:mr-9 gap-2"
+            >About</a
+          >
+        </li>
+        <li>
+          <a href="./privacy.html" class="mr-6 hover:underline md:mr-9 gap-2"
+            >Privacy Policy</a
+          >
+        </li>
+        <li>
+          <a href="./license.html" class="mr-6 hover:underline md:mr-9 gap-2"
+            >Licensing</a
+          >
+        </li>
+        <li>
+          <a href="./contact.html" class="hover:underline">Contact</a>
+        </li>
+      </ul>
+    </footer>
+
+    <!-- <script src="./node_modules/flowbite/dist/flowbite.min.js"></script> -->
+    <script src="./node_modules/flowbite/dist/flowbite.min.js"></script>
+  </body>
+</html>

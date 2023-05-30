@@ -1,0 +1,27 @@
+{
+  "name": "toolmate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iNeuron-Pvt-Ltd/neurolab-html-css-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iNeuron-Pvt-Ltd/neurolab-html-css-js/issues"
+  },
+  "homepage": "https://github.com/iNeuron-Pvt-Ltd/neurolab-html-css-js#readme",
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.3",
+    "tailwindcss": "^3.3.2"
+  },
+  "dependencies": {
+    "flowbite": "^1.6.5"
+  }
+}
